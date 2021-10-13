@@ -1,0 +1,22 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.0.2",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.4.0-beta.9",
+    "@storybook/addon-docs": "^6.4.0-beta.9",
+    "@storybook/addon-essentials": "^6.4.0-beta.9",
+    "@storybook/addon-links": "^6.4.0-beta.9",
+    "@storybook/html": "^6.4.0-beta.9",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
